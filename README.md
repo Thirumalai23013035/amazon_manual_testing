@@ -10,7 +10,8 @@ DIGITS 3
 
 ### Code
 
-  s=input()
+```
+s=input()
 
 n = len(s)
 alpha=0
@@ -26,6 +27,7 @@ for i in range(n):
 
 print(f"LETTERS {alpha}")
 print(f"DIGITS {digit}")
+```
 
 ### Image
  <img width="1897" height="980" alt="image" src="https://github.com/user-attachments/assets/30557c1a-b7c3-49c3-a3e8-8feeb8bb1290" />
@@ -38,13 +40,17 @@ Then, the output should be:40320
 
 ### Code
 
-  n = int(input())
+```
+
+n = int(input())
 fact=1
 
 for i in range(1,n+1):
   fact = fact *i
 
 print(fact)
+
+```
 
 ### Image
  <img width="1902" height="973" alt="image" src="https://github.com/user-attachments/assets/cef1501c-edb8-4d3a-a0e8-81dae709996d" />
@@ -57,11 +63,10 @@ Then the output should be:
 1010
 
 ### Code
+```
 
 arr =input().split(",")
 res=[]
-
-
 
 for i in arr:
   d = int(i,2)
@@ -70,6 +75,7 @@ for i in arr:
       res.append(i)
 
 print(",".join(res))
+```
     
 
 ### Image
