@@ -1,0 +1,30 @@
+def Hospital_Schedule(arr):
+
+    return 
+
+
+
+
+
+
+
+
+
+
+n = int(input())
+
+intervals=[]
+
+for i in range(n):
+
+    list1 = []
+    for j in range(2):
+
+        value = int(input())
+        list1.append(value)
+
+
+    intervals.append(list1) 
+
+ans = Hospital_Schedule(intervals)
+print(ans)
